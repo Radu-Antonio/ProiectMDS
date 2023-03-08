@@ -1,0 +1,57 @@
+*{
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color:bisque;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.site-title{
+    font-size: 2rem;
+}
+
+.controllers{
+    padding: 0;
+    margin-right: 40%;
+    list-style: none;
+    display:inline-flex;
+    gap: 1rem;
+
+}
+
+.login{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:inline-flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.nav li:active{
+    text-decoration: darkgray;
+}
+
+.nav li:hover{
+    color:aquamarine;
+}
+
